@@ -202,27 +202,7 @@ This seven-day itinerary blends coastal vibes, desert adventures, and Hollywood 
 
 ---
 
-## Demo
-
-![Video Map Agent Demo](./assets/demo.png)
-
----
-
-## Agent Profile
-
 [View Orchestrator on Agentverse](https://agentverse.ai/agents/agent1qvnh3yr9hgtqs58jcffnqfvu27xvh8ums7f096e03s7takn0fxpdqn88hft)
-
----
-
-## Troubleshooting
-
-| Issue | Fix |
-|---|---|
-| `Aggregator timed out` | Ensure `aggregator_agent.py` is running and `AGGREGATOR_AGENT_ADDR` is set correctly in `.env` |
-| `Static Maps returned non-PNG payload` | Your Google Maps API key may need the Static Maps API enabled in Google Cloud Console |
-| `ExternalStorage upload failed` | Transient Agentverse outage — the agent retries once automatically and falls back to a base64 inline image |
-| `No locations extracted` | The video may not have a transcript available; try a different video |
-| Stripe checkout not appearing | Set `STRIPE_SECRET_KEY` in `.env` — leave it blank to skip payment in dev mode |
 
 ---
 
